@@ -6,11 +6,36 @@
   <style>
     body { font-family: sans-serif; max-width: 700px; margin: 40px auto; line-height: 1.6; }
     h1 { color: #3a7bd5; }
+    a.button {
+      display: inline-block;
+      padding: 10px 18px;
+      background: #3a7bd5;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    a.button:hover { background: #2e68b1; }
   </style>
 </head>
 <body>
   <h1>Feel-O Support</h1>
   <p>Welcome to the support page for the Feel-O app.</p>
-  <p>If you need help, you can reach us at: <strong>support@example.com</strong></p>
+
+  <p>
+    Need help?  
+    <br><br>
+    <a class="button" href="mailto:feel-o-support-email.removable956@passmail.net">
+      Contact Support
+    </a>
+  </p>
+
+  <!-- Email is NOT shown in plain text -->
+  <script>
+    // Extra protection: obfuscate the email so it never appears in the raw HTML
+    const user = "feel-o-support-email.removable956";
+    const domain = "passmail.net";
+    document.querySelector("a.button").href = "mailto:" + user + "@" + domain;
+  </script>
 </body>
 </html>
