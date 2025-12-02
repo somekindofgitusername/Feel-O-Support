@@ -3,7 +3,7 @@ Privacy Policy for Feel‑O
 Effective date: 2025‑01‑01
 Last updated: 2025‑01‑01
 
-This Privacy Policy explains how “Feel‑O” (“the App”) by Your Company Name (“we”, “us”, “our”) collects, uses, and shares information. If you have any questions, contact us at support@example.com.
+This Privacy Policy explains how “Feel‑O” (“the App”) by Your Company Name (“we”, “us”, “our”) collects, uses, and shares information. If you have any questions, contact us at marc.picco@gmail.com
 
 1. Summary
 • We do not create user accounts and do not collect contact information within the App.
